@@ -36,13 +36,21 @@ br {
 }
 ul {
   font-weight: bold;
-  padding: 0;
   list-style-type: none;
+  margin-top: 20px;
+  padding: 0;
 }
 ul span {
   display: inline-block;
   font-weight: normal;
-  margin: 100px;
+  margin-left: 5px;
+}
+ul div {
+  display: inline-block;
+  width: 90px;
+}
+li {
+  line-height: 0.2;
 }
 
 /* The styles for the classes */
